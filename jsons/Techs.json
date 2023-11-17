@@ -74,7 +74,9 @@
                         {
                                 "name": "Alien Evolution",
 				"row": 8,
-                                "uniques": ["Independence from United Earth","Interplanetary Tourism",
+				"uniques": ["The end is not the end again.",
+					"Can be continually researched"],
+                                "prerequisites": ["Independence from United Earth","Interplanetary Tourism",
                                 "Magnetosphere Control"]
                         }
                 ]
