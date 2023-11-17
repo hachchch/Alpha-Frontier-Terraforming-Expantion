@@ -81,8 +81,8 @@
 	// Terraform
         {
                 "name": "Global Terraforming Project",
-		"cost": 1000,
-		"isWonder": true,
+		"cost": 750,
+		"isNationalWonder": true,
 		"requiredTech": "Terraforming",
 		"uniques": [
 			"Requires a [Atmospheric Generator] in at least [1] cities",
@@ -90,8 +90,6 @@
 			"Requires a [Soil Revitalizer] in at least [3] cities",
 			"Requires a [Oceanic Purifier] in at least [3] cities",
 			"Triggers a global alert upon build start",
-			//"Triggers a Cultural Victory upon completion",
-			"Triggers victory",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
 		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
@@ -174,6 +172,14 @@
 	},
 	{
 		"name": "National Sabbath",
+		"cost": 800,
+		"isWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": ["Only available <when above [999] [Water]> <when above [999] [Atmosphere]> <when above [999] [Temperature]> <when above [999] [Biomass]> <when above [999] [Oxygen]>",
+		"Triggers a global alert upon build start",
+			//"Triggers a Cultural Victory upon completion",
+			"Triggers victory",
+			"Hidden when [Terraforming] Victory is disabled"]
 		
 	}
 ]
