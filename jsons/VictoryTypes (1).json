@@ -1,0 +1,9 @@
+[
+        {
+                "name": "Terraforming",
+        "victoryScreenHeader": "Construct the necessary terraforming buildings and\nbuild the Global Terraforming Project to win!",
+        "milestones": ["Build [Global Terraforming Project]","Build [National Sabbath]"],
+        "victoryString": "You have wrestled and shaped the planet under your control. Your efforts here will surely be replicated on old Earth! Humanity owes you a second chance in restoring Earth's ecological balance.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+        }
+]
