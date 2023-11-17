@@ -22,42 +22,6 @@
 	{
 		"name": "Biomass",
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"]
-        },
-	{
-		// Bonus resources
-	// Farm stuff
-	{
-		"name": "Tubers",
-		"resourceType": "Bonus",
-		"revealedBy": "Xenoagriculture",
-		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
-		//"food": 1,
-		"improvement": "Agri Farm",
-		"improvementStats": { "food": 1 },
-		"uniques": [
-			"Organic",
-			"Flora",
-			"Generated on every [10] tiles <in [Featureless] [Grassland] tiles>",
-			"Generated on every [10] tiles <in [Featureless] [Plains] tiles>",
-			"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",
-			"Generated on every [22] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>"
-		],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Tubers",
-				"imageSize": 64
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
-				"imageSize": 64
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Underground growths of plantlike xenoflora, they are quite edible if prepared correctly."
-			}
-		]
-	}
+		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
+        }
 ]
