@@ -1,4 +1,84 @@
 [
+	{
+		"name": "Mining Tunnels",
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Temperature]",
+			"Provides [1] [Atmosphere]",
+			"Provides [1] [Water]",
+			"Consumes [1] [Biomass]",
+			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+1 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]"
+		],
+		"requiredNearbyImprovedResources": [
+			"Hexanite",
+			"Aluminum",
+			"Phostlite",
+			"Redstone",
+			"Gold Ore",
+			"Titanium"
+		],
+		"requiredTech": "Xenogeology",
+		"civilopediaText": [
+			{
+				"text": "Extensive underground tunnels, extracting riches from the depths of the planet."
+			}
+		]
+	},
+	{
+		"name": "Aquatic Farm",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Atmosphere]",
+			"Provides [1] [Oxygen]",
+			"Provides [1] [Biomass]",
+			"Must be next to [Coast]",
+			/*
+			"[+1 Food] from [Algae] tiles [in this city]",
+			"[+1 Food] from [Seasilk] tiles [in this city]",
+			"[+1 Food] from [Plankton] tiles [in this city]",
+			"[+1 Food] from [Sea Slivers] tiles [in this city]",
+			"[+1 Food] from [Sindrian Lobster] tiles [in this city]"
+			*/
+			"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
+		],
+		"requiredTech": "Xeno-Grafting",
+		"civilopediaText": [
+			{
+				"text": "It's like a regular farm, but underwater! But seriously, this is where you raise and cultivate aquatic organisms."
+			}
+		]
+	},
+	{
+		"name": "Greenhouse",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Biomass]",
+			/* 
+			"[+1 Food] from [Tubers] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Fungi Pods] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
+			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
+			*/
+			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
+		],
+		"requiredTech": "Xenoagriculture",
+		"civilopediaText": [
+			{
+				"text": "Staple food plants from old Earth, grown in a controlled environment."
+			}
+		]
+	},
+	// Terraform
         {
                 "name": "Global Terraforming Project",
 		"cost": 1000,
