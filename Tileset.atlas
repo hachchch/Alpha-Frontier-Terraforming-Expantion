@@ -66,147 +66,147 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Forest
+TileSets/FantasyHex/Tiles/Forest-Breathablecene
   rotate: false
   xy: 516, 690
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/ForestMycelium
+TileSets/FantasyHex/Tiles/ForestMycelium-Breathablecene
   rotate: false
   xy: 516, 690
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland
+TileSets/FantasyHex/Tiles/Grassland-Breathablecene
   rotate: false
   xy: 596, 1208
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/ForestGrassland
+TileSets/FantasyHex/Tiles/ForestGrassland-Breathablecene
   rotate: false
   xy: 556, 976
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill
+TileSets/FantasyHex/Tiles/Hill-Breathablecene
   rotate: false
   xy: 556, 681
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Jungle
+TileSets/FantasyHex/Tiles/Jungle-Breathablecene
   rotate: false
   xy: 636, 915
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/JungleGrassland
+TileSets/FantasyHex/Tiles/JungleGrassland-Breathablecene
   rotate: false
   xy: 636, 915
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/JungleMycelium
+TileSets/FantasyHex/Tiles/JungleMycelium-Breathablecene
   rotate: false
   xy: 636, 915
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Lakes
+TileSets/FantasyHex/Tiles/Lakes-Breathablecene
   rotate: false
   xy: 636, 804
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mycelium
+TileSets/FantasyHex/Tiles/Mycelium-Breathablecene
   rotate: false
   xy: 716, 1152
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mountain
+TileSets/FantasyHex/Tiles/Mountain-Breathablecene
   rotate: false
   xy: 716, 593
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Oasis
+TileSets/FantasyHex/Tiles/Oasis-Breathablecene
   rotate: false
   xy: 716, 521
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean
+TileSets/FantasyHex/Tiles/Ocean-Breathablecene
   rotate: false
   xy: 716, 485
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains
+TileSets/FantasyHex/Tiles/Plains-Breathablecene
   rotate: false
   xy: 756, 1000
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/ForestPlains
+TileSets/FantasyHex/Tiles/ForestPlains-Breathablecene
   rotate: false
   xy: 756, 880
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/JunglePlains
+TileSets/FantasyHex/Tiles/JunglePlains-Breathablecene
   rotate: false
   xy: 796, 956
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Snow
+TileSets/FantasyHex/Tiles/Snow-Breathablecene
   rotate: false
   xy: 876, 847
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra
+TileSets/FantasyHex/Tiles/Tundra-Breathablecene
   rotate: false
   xy: 552, 465
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/ForestTundra
+TileSets/FantasyHex/Tiles/ForestTundra-Breathablecene
   rotate: false
   xy: 876, 483
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Coast
+TileSets/FantasyHex/Tiles/Coast-Breathablecene
   rotate: false
   xy: 388, 20
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert
+TileSets/FantasyHex/Tiles/Desert-Breathablecene
   rotate: false
   xy: 476, 990
   size: 32, 28
