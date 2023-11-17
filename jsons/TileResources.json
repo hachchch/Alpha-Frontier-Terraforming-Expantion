@@ -1,0 +1,27 @@
+[
+        {
+                "name": "Atmosphere",
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
+	},
+	{
+		"name": "Temperature",
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
+	},
+	{
+		"name": "Water",
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded <before discovering [Hydrodynamics]>","Stockpiled"],
+	},
+	{
+		"name": "Oxygen",
+		"resourceType": "Stratgic",
+		"uniques": ["Cannot be tred <before discovering [Terraforming]>","Stockpiled"],
+	},
+	{
+		"name": "Biomass",
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"]
+        }
+]
