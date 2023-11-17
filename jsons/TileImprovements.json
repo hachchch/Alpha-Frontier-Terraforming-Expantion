@@ -1151,6 +1151,12 @@
                 "uniques": ["Provides [50] [Atmosphere]",
 			"Provides [10] [Temperature]",
                 "Consumes [33] [Biomass]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Nuclear Atmosphere Generator",
+				"imageSize": 64
+			}
+		]
         },
         {
                 "name": "Kelp Plantation",
