@@ -1144,14 +1144,17 @@
         // Terraforming Building
         {
                 "name": "Nuclear Atmosphere Generator",
+		"science": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
                 "uniques": ["Provides [50] [Atmosphere]",
+			"Provides [10] [Temperature]",
                 "Consumes [33] [Biomass]"],
         },
         {
                 "name": "Kelp Plantation",
+		"food": 1,
 		"terrainsCanBeBuiltOn": ["Water"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
@@ -1159,4 +1162,55 @@
                 "Consumes [5] [Atmosphere]",
                 "Provides [5] [Oxygen]"]
         },
+	{
+		"name": "Aquifer Dam",
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 5,
+		"techRequired": "Terraforming",
+                "uniques": ["Provides [33] [Water] <when below [1001] [Water]>",
+                "Consumes [20] [Atmosphere] <when below [1001] [Water]>",
+                "Provides [10] [Temperature] <when below [1001] [Water]>"]
+	},
+	{
+		"name": "Artificial Photosynthesis Facility",
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 5,
+		"techRequired": "Terraforming",
+                "uniques": ["Provides [50] [Oxygen] <when below [1001] [Oxygen]>",
+                "Consumes [40] [Atmosphere] <when below [1001] [Oxygen]>",
+                "Consumes [10] [Temperature] <when below [1001] [Oxygen]>"]
+	},
+	{
+		"name": "Comet Radar Network",
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 20,
+		"techRequired": "Terraforming",
+                "uniques": ["Provides [100] [Water] <when below [1001] [Water]>",
+                "Provides [33] [Atmosphere] <when below [1001] [Water]>",
+                "Provides [33] [Temperature] <when below [1001] [Water]>",
+		"Consumes [33] [Biomass] <when below [1001] [Water]>"]
+	},
+	{
+		"name": "Ultra deep Mining",
+		"gold": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 5,
+		"techRequired": "Terraforming",
+                "uniques": ["Provides [15] [Temperature]",
+			"Provides [10] [Atmosphere]"]
+	},
+	{
+		"name": "Garden of Dominant Biomass",
+		"food": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 5,
+		"techRequired": "Terraforming",
+                "uniques": ["Provides [24] [Biomass]",
+			"Provides [10] [Oxygen]",
+		"Consumes [10] [Atmosphere]",
+		"Consumes [30] [Water]"]
+	}
 ]
