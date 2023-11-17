@@ -21,7 +21,7 @@
 	{
 		"name": "Oxygen",
 		"food": 1,
-		"resourceType": "Stratgic",
+		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
 	},
 	{
