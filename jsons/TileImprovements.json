@@ -1203,7 +1203,7 @@
 			"Provides [10] [Atmosphere]"]
 	},
 	{
-		"name": "Enchanted Cyanobacteria Garden",
+		"name": "Enchanted Bacteria Garden",
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 5,
