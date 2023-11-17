@@ -179,7 +179,8 @@
 		"Triggers a global alert upon build start",
 			//"Triggers a Cultural Victory upon completion",
 			"Triggers victory",
-			"Hidden when [Terraforming] Victory is disabled"]
+			"Hidden when [Terraforming] Victory is disabled",
+		"Discover [Fully Terraformed Planet]"]
 		
 	}
 ]
