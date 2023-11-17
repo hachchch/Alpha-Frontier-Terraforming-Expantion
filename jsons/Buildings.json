@@ -1,0 +1,91 @@
+[
+        {
+                "name": "Global Terraforming Project",
+		"cost": 1000,
+		"isWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": [
+			"Requires a [Atmospheric Generator] in at least [3] cities",
+			"Requires a [Tectonic Stabilizer] in at least [3] cities",
+			"Requires a [Soil Revitalizer] in at least [3] cities",
+			"Requires a [Oceanic Purifier] in at least [3] cities",
+			"Triggers a global alert upon build start",
+			//"Triggers a Cultural Victory upon completion",
+			"Triggers victory",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
+		"civilopediaText": [
+			{
+				"text": "A massive, simultaneous undertaking to turn this alien planet into one that resembles Old Earth."
+			}
+		]
+	},
+	{
+		"name": "Atmospheric Generator",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Solar Reflectors",
+		"uniques": [
+			"[+1 Gold] from [Habitation Dome] tiles [in this city]",
+			"[+1 Culture] from [Xeno Sanctuary] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "This facility is where specialized aerosols are produced and released into the atmosphere, in order to make the air more breathable to humans."
+			}
+		]
+	},
+	{
+		"name": "Tectonic Stabilizer",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": [
+			"[+1 Production] from [Mine] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "Deep rods extend downwards to stabilize the local tectonic plates."
+			}
+		]
+	},
+	{
+		"name": "Soil Revitalizer",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"[+1 Food] from [Agri Farm] tiles [in this city]",
+			"[+1 Food] from [Terraboretum] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "Procedures, microbes and chemicals developed and applied in order to return nutrients to the soil."
+			}
+		]
+	},
+	{
+		"name": "Oceanic Purifier",
+		"cost": 500,
+		//"isNationalWonder": true,
+		"requiredTech": "Terraforming",
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Water resource] tiles [in this city]",
+			"Limited to [3] per Civilization",
+			"Hidden when [Terraforming] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "Massive floating facilities that roam the seas as they filter out toxins from the water and introduce oxygen to depleted waters."
+			}
+		]
+	}
+]
