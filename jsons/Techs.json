@@ -1,0 +1,82 @@
+[
+        {
+                "columnNumber": 13,
+		"era": "Singularity era",
+		"techCost": 9500,
+		"buildingCost": 1660,
+		"wonderCost": 3320,
+		"techs": [
+			{
+				"name": "Singularity Tech",
+				"row": 8,
+				"quote": "'All things were together, infinite both in number and in smallness; for the small too was infinite.' - Anaxagoras",
+				"prerequisites": [
+					"FTL Travel",
+					"Advanced Biotech",
+					"N-Dimensional Exploration",
+					"Zero Point Energy",
+					"Graviton Harnessing",
+					"Hive Mind"
+				],
+				"uniques": [
+                                        "Only available <before discovering [Fully Terraformed Planet]>",
+					"Sometimes the end is not the end.",
+					"Can be continually researched"
+				]
+			}
+		]
+	},
+        {
+                "columnNumber": 14,
+		"era": "Breathablecene",
+		"techCost": 9500,
+		"buildingCost": 1660,
+		"wonderCost": 3320,
+		"techs": [
+                        {
+                                "name": "Fully Terraformed Planet",
+				"row": 8,
+                                "uniques": ["Only available <after discovering [Fully Terraformed Planet]>]",
+                        }
+                ]
+        },
+        {
+                "columnNumber": 15,
+		"era": "Breathablecene",
+		"techCost": 9500,
+		"buildingCost": 1660,
+		"wonderCost": 3320,
+		"techs": [
+                        {
+                                "name": "Magnetosphere Control",
+                                "row": 6,
+                                "prerequisites": ["Fully Terraformed Planet"]
+                        },
+                        {
+                                "name": "Independence from United Earth",
+                                "row": 8,
+                                "prerequisites": ["Fully Terraformed Planet"]
+                        },
+                        {
+                                "name": "Interplanetary Tourism",
+                                "row": 10,
+                                "prerequisites": ["Fully Terraformed Planet"]
+                        }
+                ]
+        },
+        {
+                "columnNumber": 16,
+		"era": "Breathablecene",
+		"techCost": 9500,
+		"buildingCost": 1660,
+		"wonderCost": 3320,
+		"techs": [
+                        {
+                                "name": "Alien Evolution",
+				"row": 8,
+                                "uniques": ["Independence from United Earth","Interplanetary Tourism",
+                                "Magnetosphere Control"]
+                        }
+                ]
+        }
+]
