@@ -1203,7 +1203,7 @@
 			"Provides [10] [Atmosphere]"]
 	},
 	{
-		"name": "Garden of Dominant Biomass",
+		"name": "Enchanted Cyanobacteria Garden",
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 5,
