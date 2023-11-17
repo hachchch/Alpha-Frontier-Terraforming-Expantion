@@ -1,4 +1,5 @@
 {
         "name": "Global uniques",
-	"uniques": [""]
+	"uniques": ["[+1 Gold] from [Habitation Dome] tiles [in all cities] <when above [1000] [Atmosphere]>",
+			"[+1 Culture] from [Xeno Sanctuary] tiles [in all cities] <when above [1000] [Atmosphere]"]
 }
