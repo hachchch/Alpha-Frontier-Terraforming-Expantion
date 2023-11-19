@@ -123,3 +123,45 @@ TechIcons/Fully Terraformed Planet
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Invisible Trooper
+  rotate: false
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Multi-Interactional magnetostriction Bazooka Trooper
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Interplanetary Legion
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Geomagnetic Storm Maker
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Artificial Wormhole Station
+  rotate: false
+  xy: 400, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Aurora Observatory
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
