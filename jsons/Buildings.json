@@ -182,5 +182,11 @@
 			"Hidden when [Terraforming] Victory is disabled",
 		"Discover [Fully Terraformed Planet]"]
 		
+	},
+	{
+		"name": "Aurora Observatory",
+	},
+	{
+		"name": "",
 	}
 ]
