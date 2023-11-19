@@ -27,6 +27,7 @@
 	},
 	{
 		"name": "Invisible Trooper",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 46,
 		"cost": 1000,
