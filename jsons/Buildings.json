@@ -185,8 +185,22 @@
 	},
 	{
 		"name": "Aurora Observatory",
+		"cost": 550,
+		"culture": 5,
+		"happiness": 2,
+		"requiredTech": "Magnetosphere Control",
+		"uniques": ["Must be on [Snow]","Must be on [Tundra]"]
 	},
 	{
-		"name": "",
+		"name": "Artificial Wormhole Station",
+		"cost": 850,
+		"isNationalWonder": true,
+		"requiredTech": "Interplanetary Tourism",
+		"uniques": ["[100]% growth [in all cities]",
+			"[33]% Food is carried over after population increases [in all cities]",
+			"Connects trade routes over planet",
+			"Connects trade routes over water <hidden from users>",
+		"[1] population in a random city <upon declaring friendship> <hidden from users>",
+		"[1] population in a random city <upon entering a Golden Age> <hidden from users>"]
 	}
 ]
