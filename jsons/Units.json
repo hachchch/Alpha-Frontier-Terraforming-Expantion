@@ -1,5 +1,31 @@
 [
 	{
+		"name": "Geomagnetic Storm Maker",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 10000,
+		"rangedStrength": 10000,
+		"range": 15,
+		"interceptRange": 0,
+		"cost": 1800,
+		"requiredTech": "Magnetosphere Control",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [10]",
+			"[-1000]% Strength <vs [Satellite] units>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Limited to [1] per Civilization",
+			"Never appears as a Barbarian unit",
+			"Self-destructs when attacking"
+		],
+		"attackSound": "fire",
+		"civilopediaText": [
+			{
+				"text": "A true Sword of Damocles, this orbital spectre comes straight out of old Earth nightmares."
+			}
+		]
+	},
+	{
 		"name": "Invisible Trooper",
 		"movement": 2,
 		"strength": 46,
