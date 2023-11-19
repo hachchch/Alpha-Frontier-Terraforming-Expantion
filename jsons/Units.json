@@ -29,3 +29,35 @@
 			}
 		]
 	},
+	{
+		"name": "Interplanetary Legion",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Interplanetary Tourism",
+		"uniques": [
+			"Uncapturable",
+			"Unable to capture cities",
+			"Destroys tile improvements when attacking",
+			"[+25]% Strength <when defending>",
+			"[+500]% Strength <vs cities> <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Interplanetary Legion",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "The Interplanetary Legion is a corps made up of extraplanetary personnel that primarily conducts defensive operations. They can be sent to wars of invasion, but they cannot capture cities because the treaty prevents them from attacking civilians."
+			}
+		]
+	}
+]
