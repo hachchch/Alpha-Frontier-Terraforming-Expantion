@@ -226,3 +226,24 @@ TileSets/FantasyHex/Units/Drop Trooper-Breathablecene
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Interplanetary Legion
+  rotate: false
+  xy: 524, 130
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Invisible Trooper
+  rotate: false
+  xy: 474, 180
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Multi-Interactional magnetostriction Bazooka Trooper
+  rotate: false
+  xy: 424, 180
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
