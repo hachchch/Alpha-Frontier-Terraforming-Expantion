@@ -1,0 +1,31 @@
+[
+        {
+                "name": "Multi-Interactional magnetostriction Bazooka Trooper",
+                "unitType": "Infantry",
+		"movement": 2,
+		"strength": 60,
+		"cost": 420,
+		"requiredTech": "Independence from United Earth",
+		//"requiredResource": "Antimatter",
+		"uniques": [
+			"[+1000]% Strength <when attacking>",
+			"Consumes [1] [Antimatter]",
+			"Only available <with [Antimatter]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Multi-Interactional magnetostriction Bazooka Trooper",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a mini antimatter generator, this gun synthesizes and fires Super-dimensional energy from the forces of field interactions. The target mix with the ground."
+			}
+		]
+	},
