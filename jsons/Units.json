@@ -1,4 +1,27 @@
 [
+	{
+		"name": "Invisible Trooper",
+		"movement": 2,
+		"strength": 46,
+		"cost": 1000,
+		"requiredTech": "Independence from United Earth",
+		"uniques": ["Invisible to others"],
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Invisible Trooper",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Perfect camouflage systems."
+			}
+		]
+	},
         {
                 "name": "Multi-Interactional magnetostriction Bazooka Trooper",
                 "unitType": "Infantry",
