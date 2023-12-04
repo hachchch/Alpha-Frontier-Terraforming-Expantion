@@ -1,0 +1,33 @@
+AlphaUnits.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Drop Trooper-Breathablecene
+  rotate: false
+  xy: 0, 0
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Interplanetary Legion
+  rotate: false
+  xy: 95, 0
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Multi-Interactional magnetostriction Bazooka Trooper
+  rotate: false
+  xy: 190, 0
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Invisible Trooper
+  rotate: false
+  xy: 285, 0
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
