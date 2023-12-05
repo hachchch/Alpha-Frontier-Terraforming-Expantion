@@ -94,7 +94,7 @@
 			"[+500]% Strength <vs cities> <when defending>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "cannon",
+		"attackSound": "Gun",
 		"civilopediaText": [
 			/*
 			{
