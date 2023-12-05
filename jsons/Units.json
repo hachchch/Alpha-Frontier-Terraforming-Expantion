@@ -18,7 +18,7 @@
 			"Never appears as a Barbarian unit",
 			"Self-destructs when attacking"
 		],
-		"attackSound": "fire",
+		"attackSound": "Disaster",
 		"civilopediaText": [
 			{
 				"text": "A true Sword of Damocles, this orbital spectre comes straight out of old Earth nightmares."
@@ -63,7 +63,7 @@
 			"Only available <with [Antimatter]>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "ChargeUpBeam",
+		"attackSound": "BE",
 		"civilopediaText": [
 			/*
 			{
