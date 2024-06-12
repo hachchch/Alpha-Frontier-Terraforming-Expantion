@@ -1,11 +1,9 @@
 [
-	/*
 	{
 		"name": "Test Building",
 		"cost": 1,
 		"uniques": ["[Gold] [Gold] [in this city]"]
 	},
-	*/
 	{
 		"name": "Mining Tunnels",
 		"maintenance": 1,
