@@ -1,10 +1,5 @@
 [
 	{
-		"name": "Test Building",
-		"cost": 1,
-		"uniques": ["[Gold] [Gold] [in this city]"]
-	},
-	{
 		"name": "Mining Tunnels",
 		"maintenance": 1,
 		"production": 1,
@@ -204,7 +199,7 @@
 		"requiredTech": "Interplanetary Tourism",
 		"uniques": ["[100]% growth [in all cities]",
 			"[33]% Food is carried over after population increases [in all cities]",
-			"Comment[Connects trade routes over planet]",
+			"Comment [Connects trade routes over planet]",
 			"Connects trade routes over water <hidden from users>",
 		"[1] population in a random city <upon declaring friendship> <hidden from users>",
 		"[1] population in a random city <upon entering a Golden Age> <hidden from users>"]
