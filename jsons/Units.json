@@ -50,7 +50,7 @@
 		]
 	},
         {
-                "name": "Multi-Interactional magnetostriction Bazooka Trooper",
+                "name": "Combat APP Trooper",
                 "unitType": "Infantry",
 		"movement": 2,
 		"strength": 60,
@@ -75,7 +75,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Equipped with a mini antimatter generator, this gun synthesizes and fires Super-dimensional energy from the forces of field interactions. The target mix with the ground."
+				"text": "Equipped with a combat anti-photon photon collider(APP), fires weak force from the weak boson. The target will be mix with the surface."
 			}
 		]
 	},
