@@ -20,7 +20,7 @@
 				],
 				"uniques": [
                                         "Only available <before discovering [Fully Terraformed Planet]>",
-					"Comment[Sometimes the end is not the end.]",
+					"Comment [Sometimes the end is not the end.]",
 					"Can be continually researched"
 				]
 			}
@@ -74,7 +74,7 @@
                         {
                                 "name": "Alien Evolution",
 				"row": 8,
-				"uniques": ["Comment[The end is not the end again.]",
+				"uniques": ["Comment [The end is not the end again.]",
 					"Can be continually researched"],
                                 "prerequisites": ["Independence from United Earth","Interplanetary Tourism",
                                 "Magnetosphere Control"]
