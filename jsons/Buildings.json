@@ -1,83 +1,4 @@
 [
-	{
-		"name": "Mining Tunnels",
-		"maintenance": 1,
-		"production": 1,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Provides [1] [Temperature]",
-			"Provides [1] [Atmosphere]",
-			"Provides [1] [Water]",
-			"Consumes [1] [Biomass]",
-			"[+1 Production] from [Hill] tiles [in this city]",
-			"[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mine] tiles [in this city]"
-		],
-		"requiredNearbyImprovedResources": [
-			"Hexanite",
-			"Aluminum",
-			"Phostlite",
-			"Redstone",
-			"Gold Ore",
-			"Titanium"
-		],
-		"requiredTech": "Xenogeology",
-		"civilopediaText": [
-			{
-				"text": "Extensive underground tunnels, extracting riches from the depths of the planet."
-			}
-		]
-	},
-	{
-		"name": "Aquatic Farm",
-		"food": 2,
-		"cost": 40,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Consumes [1] [Atmosphere]",
-			"Provides [1] [Oxygen]",
-			"Provides [1] [Biomass]",
-			"Must be next to [Coast]",
-			/*
-			"[+1 Food] from [Algae] tiles [in this city]",
-			"[+1 Food] from [Seasilk] tiles [in this city]",
-			"[+1 Food] from [Plankton] tiles [in this city]",
-			"[+1 Food] from [Sea Slivers] tiles [in this city]",
-			"[+1 Food] from [Sindrian Lobster] tiles [in this city]"
-			*/
-			"[+1 Food] from [Water resource] tiles [in this city] <in [Organic] tiles>"
-		],
-		"requiredTech": "Xeno-Grafting",
-		"civilopediaText": [
-			{
-				"text": "It's like a regular farm, but underwater! But seriously, this is where you raise and cultivate aquatic organisms."
-			}
-		]
-	},
-	{
-		"name": "Greenhouse",
-		"food": 2,
-		"cost": 40,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Provides [1] [Biomass]",
-			/* 
-			"[+1 Food] from [Tubers] tiles [in this city] <after discovering [Xenoagriculture]>",
-			"[+1 Food] from [Fungi Pods] tiles [in this city] <after discovering [Xenoagriculture]>",
-			"[+1 Food] from [Exotic Fruits] tiles [in this city] <after discovering [Xenoagriculture]>",
-			"[+1 Food] from [Rockbud] tiles [in this city] <after discovering [Xenoagriculture]>"
-			*/
-			"[+1 Food] from [Bonus resource] tiles [in this city] <in [Flora] tiles> <after discovering [Xeno-Grafting]>"
-		],
-		"requiredTech": "Xenoagriculture",
-		"civilopediaText": [
-			{
-				"text": "Staple food plants from old Earth, grown in a controlled environment."
-			}
-		]
-	},
 	// Terraform
         {
                 "name": "Global Terraforming Project",
@@ -86,10 +7,6 @@
 		"requiredTech": "Terraforming",
 		"uniques": [
 			"Can only be built <in [non-[Puppeted]] cities>",
-			"Only available <if [Atmospheric Generator] is constructed in at least [3] of [non-[Puppeted]] cities>",
-			"Only available <if [Tectonic Stabilizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
-			"Only available <if [Soil Revitalizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
-			"Only available <if [Oceanic Purifier] is constructed in at least [3] of [non-[Puppeted]] cities>",
 			"Triggers a global alert upon build start",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
@@ -106,7 +23,7 @@
 		//"isNationalWonder": true,
 		"requiredTech": "Solar Reflectors",
 		"uniques": [
-			"Provides [25] [Atmosphere]",
+			"Provides [25] [Atmosphere] <when number of [Atmosphere] is less than [Atmosphere Best Status]>",
 			"Limited to [1] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
 		],
@@ -123,6 +40,8 @@
 		"requiredTech": "Terraforming",
 		"uniques": [
 			"Provides [5] [Atmosphere]",
+			"Provides [5] [Water]",
+			"Consumes [5] [Biomass]",
 			"[+1 Production] from [Mine] tiles [in this city]",
 			"Limited to [3] per Civilization",
 			"Hidden when [Terraforming] Victory is disabled"
@@ -158,8 +77,7 @@
 		//"isNationalWonder": true,
 		"requiredTech": "Terraforming",
 		"uniques": [
-			"Provides [5] [Water]",
-			"Provides [1] [Biomass]",
+			"Provides [1] [Biomass] <for every [100] [Water]> <when number of [Water] is greater than [1000]>",
 			"Must be next to [Coast]",
 			"[+1 Food] from [Water resource] tiles [in this city]",
 			"Limited to [3] per Civilization",
@@ -176,7 +94,16 @@
 		"cost": 800,
 		"isWonder": true,
 		"requiredTech": "Terraforming",
-		"uniques": ["Only available <when above [999] [Water]> <when above [999] [Atmosphere]> <when above [999] [Temperature]> <when above [999] [Biomass]> <when above [999] [Oxygen]>",
+		"uniques": [
+			"Only available <when number of [Oxygen] is between [1800] and [3200]>",
+			"Only available <when number of [Water] is between [1800] and [3200]>",
+			"Only available <when number of [Temperature] is between [1800] and [3230]>",
+			"Only available <when number of [Atmosphere] is between [1800] and [3200]>",
+			"Only available <when number of [Biomass] is greater than [550000]>",
+			"Only available <if [Atmospheric Generator] is constructed in at least [3] of [non-[Puppeted]] cities>",
+			"Only available <if [Tectonic Stabilizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
+			"Only available <if [Soil Revitalizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
+			"Only available <if [Oceanic Purifier] is constructed in at least [3] of [non-[Puppeted]] cities>",
 		"Triggers a global alert upon build start",
 			//"Triggers a Cultural Victory upon completion",
 			"Triggers victory",
