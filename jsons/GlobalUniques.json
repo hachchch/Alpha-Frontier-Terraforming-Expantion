@@ -1,5 +1,9 @@
 {
         "name": "Global uniques",
-	"uniques": ["[+1 Gold] from [Habitation Dome] tiles [in all cities] <when above [999] [Atmosphere]>",
-		    "[+1 Culture] from [Xeno Sanctuary] tiles [in all cities] <when above [999] [Atmosphere]>"]
+	"uniques": ["Provides [5000] [Best Status]","[+1 Gold] from [Habitation Dome] tiles [in all cities] <when above [999] [Atmosphere]>",
+		    "[+1 Culture] from [Xeno Sanctuary] tiles [in all cities] <when above [999] [Atmosphere]>",
+		"Consumes [1] [Biomass] <when number of [Temperature] is greater than [Best Status]> <for every [] []>",
+		/*environment surrounding by Human Activity*/
+	"Provides [1] [Temperature] <for every [2] [Mining Tunnels]>",
+	"Provides [1] [Water] <for every [Mining Tunnels]>"]
 }
