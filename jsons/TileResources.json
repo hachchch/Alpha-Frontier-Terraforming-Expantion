@@ -1,32 +1,48 @@
 [
         {
                 "name": "Atmosphere",
-		"food": 1,
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
 
 	},
 	{
 		"name": "Temperature",
-		"food": 1,
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
 	},
 	{
 		"name": "Water",
-		"food": 1,
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
 	},
 	{
 		"name": "Oxygen",
-		"food": 1,
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
 	},
 	{
+                "name": "Atmosphere Best Status",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+
+	},
+	{
+		"name": "Temperature Best Status",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
+		"name": "Water Best Status",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
+		"name": "Oxygen Best Status",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
 		"name": "Biomass",
-		"food": 1,
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Terraforming]>","Stockpiled"],
         }
