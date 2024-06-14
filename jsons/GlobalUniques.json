@@ -1,9 +1,44 @@
 {
         "name": "Global uniques",
-	"uniques": ["Provides [5000] [Best Status]","[+1 Gold] from [Habitation Dome] tiles [in all cities] <when above [999] [Atmosphere]>",
+	"uniques": ["Instantly provides [100] [Biomass]",
+		"Provides [2870] [Temperature Best Status]", /*+0.1℃ per Temperature,*/
+		"Provides [3800] [Water Best Status]", /*+1m per water,*/
+		"Provides [1013] [Atmosphere Best Status]", /*+1 hPa per Atmosphere,*/
+		"Provides [2100] [Oxygen Best Status]", /*+100ppm per Oxygen,*/
+		"Provides [1] [Temperature] <for every [1500] [Atmosphere]>",
+		"Consumes [1] [Temperature] <when below [500] [Atmosphere]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Oxygen Best Status] is between [Oxygen] and [2110]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Oxygen Best Status] is between [Oxygen] and [2090]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Water Best Status] is between [Water] and [3810]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Water Best Status] is between [Water] and [3790]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Temperature Best Status] is between [Temperature] and [2880]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Temperature Best Status] is between [Temperature] and [2860]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Atmosphere Best Status] is between [Atmosphere] and [1023]>",
+		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Atmosphere Best Status] is between [Atmosphere] and [1003]>",
+		"[+10]% growth [in all cities] <when number of [Oxygen] is between [Oxygen Best Status] and [2110]>",
+		"[+10]% growth [in all cities] <when number of [Oxygen] is between [Oxygen Best Status] and [2090]>",
+		"[+10]% growth [in all cities] <when number of [Water] is between [Water Best Status] and [3810]>",
+		"[+10]% growth [in all cities] <when number of [Water] is between [Water Best Status] and [3790]>",
+		"[+10]% growth [in all cities] <when number of [Temperature] is between [Temperature Best Status] and [2880]>",
+		"[+10]% growth [in all cities] <when number of [Temperature] is between [Temperature Best Status] and [2860]>",
+		"[+10]% growth [in all cities] <when number of [Atmosphere] is between [Atmosphere Best Status] and [1023]>",
+		"[+10]% growth [in all cities] <when number of [Atmosphere] is between [Atmosphere Best Status] and [1003]>",
+		"[+1 Gold] from [Habitation Dome] tiles [in all cities] <when above [999] [Atmosphere]>",
 		    "[+1 Culture] from [Xeno Sanctuary] tiles [in all cities] <when above [999] [Atmosphere]>",
-		"Consumes [1] [Biomass] <when number of [Temperature] is greater than [Best Status]> <for every [] []>",
+		"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Temperature] is less than [2730]>",
+		"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Temperature] is greater than [3230]>",
 		/*environment surrounding by Human Activity*/
 	"Provides [1] [Temperature] <for every [2] [Mining Tunnels]>",
-	"Provides [1] [Water] <for every [Mining Tunnels]>"]
+	"Provides [1] [Water] <for every [Mining Tunnels]>",
+	"Provides [1] [Atmosphere] <for every [2] [Mining Tunnels]>",
+	"Consumes [1] [Atmosphere] <for every [2] [Aquatic Farm]>",
+	"Provides [1] [Oxygen] <for every [Aquatic Farm]>",
+	"Provides [1] [Biomass] <for every [Aquatic Farm]>",
+	"Consumes [1] [Atmosphere] <for every [2] [Aquatic Farm]>",
+	"Provides [1] [Oxygen] <for every [Aquatic Farm]>",
+	"Provides [1] [Biomass] <for every [Aquatic Farm]>",
+	"Consumes [1] [Water] <for every [2] [Greenhouse]>",
+	"Consumes [1] [Atmosphere] <for every [2] [Greenhouse]>",
+	"Provides [1] [Oxygen] <for every [Greenhouse]>",
+	"Provides [1] [Biomass] <for every [2] [Greenhouse]>"]
 }
