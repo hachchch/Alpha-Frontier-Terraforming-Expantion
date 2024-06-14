@@ -31,7 +31,7 @@
 		"movement": 2,
 		"strength": 46,
 		"cost": 1000,
-		"requiredTech": "Independence from United Earth",
+		"requiredTech": "Independence",
 		"uniques": ["Invisible to others"],
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
@@ -55,7 +55,7 @@
 		"movement": 2,
 		"strength": 60,
 		"cost": 420,
-		"requiredTech": "Independence from United Earth",
+		"requiredTech": "Independence",
 		//"requiredResource": "Antimatter",
 		"uniques": [
 			"[+1000]% Strength <when attacking>",
