@@ -96,9 +96,9 @@
 		"requiredTech": "Terraforming",
 		"uniques": [
 			"Only available <when number of [Oxygen] is between [1800] and [3200]>",
-			"Only available <when number of [Water] is between [1800] and [3200]>",
-			"Only available <when number of [Temperature] is between [1800] and [3230]>",
-			"Only available <when number of [Atmosphere] is between [1800] and [3200]>",
+			"Only available <when number of [Water] is between [3600] and [4000]>",
+			"Only available <when number of [Temperature] is between [2780] and [3230]>",
+			"Only available <when number of [Atmosphere] is between [780] and [1213]>",
 			"Only available <when number of [Biomass] is greater than [550000]>",
 			"Only available <if [Atmospheric Generator] is constructed in at least [3] of [non-[Puppeted]] cities>",
 			"Only available <if [Tectonic Stabilizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
