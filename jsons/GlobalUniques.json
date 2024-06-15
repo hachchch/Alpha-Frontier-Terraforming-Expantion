@@ -1,6 +1,7 @@
 {
         "name": "Global uniques",
 	"uniques": ["Instantly provides [100] [Biomass]",
+		"Gain a free [Environment] [in capital]",
 		"Triggers a [Terraforming Tips] event <upon discovering [Terraforming] technology>",
 		"Provides [2870] [Temperature Best Status]", /*+0.1℃ per Temperature,*/
 		"Provides [3800] [Water Best Status]", /*+1m per water,*/
@@ -18,7 +19,6 @@
 		"[+10]% growth [in all cities] <when number of [Temperature] is equal to [Temperature Best Status]>",
 		"[+10]% growth [in all cities] <when number of [Atmosphere] is equal to [Atmosphere Best Status]>",
 		"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Water] is less than [1000]>",
-		/*environment surrounding by Human Activity*/
 	"Provides [1] [Temperature] <for every [2] [Mining Tunnels]>",
 	"Provides [1] [Water] <for every [Mining Tunnels]>",
 	"Provides [1] [Atmosphere] <for every [2] [Mining Tunnels]>",
