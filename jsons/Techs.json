@@ -76,7 +76,7 @@
 				"row": 8,
 				"uniques": ["Comment [The end is not the end again.]",
 					"Can be continually researched"],
-                                "prerequisites": ["Independence from United Earth","Interplanetary Tourism",
+                                "prerequisites": ["Independence","Interplanetary Tourism",
                                 "Magnetosphere Control"]
                         }
                 ]
