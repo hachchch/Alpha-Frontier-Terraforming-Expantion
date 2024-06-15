@@ -1234,6 +1234,16 @@
                 "Consumes [10] [Temperature] <when number of [Water] is greater than [Water Best Status]>"]
 	},
 	{
+		"name": "Oxygen Burner",
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 5,
+		"techRequired": "Terraforming",
+                "uniques": ["Consumes [100] [Oxygen]",
+                "Provides [40] [Atmosphere]",
+                "Provides [10] [Temperature]"]
+	},
+	{
 		"name": "Artificial Photosynthesis Facility",
 		"science": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
