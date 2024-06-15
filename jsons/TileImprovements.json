@@ -85,7 +85,7 @@
 		"techRequired": "Genetics",
 		"uniques": [
                         "Provides [1] [Oxygen]",
-                        "Provides [1] [Water]",
+                        "Consumes [1] [Water]",
                         "Provides [1] [Atmosphere]",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
@@ -114,7 +114,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
 		"uniques": [
-                        "Consumes [1] [Biomass]",
+                        "Consumes [3] [Biomass]",
 			"Cannot be built on [Water] tiles",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -413,7 +413,6 @@
 		"uniques": [
                         "Provides [2] [Biomass]",
                         "Provides [1] [Oxygen]",
-                        "Provides [1] [Water]",
 			"[+1 Food] <after discovering [Genetics]>",
 			"[+1 Food] <in [Ocean] tiles>",
 			"Can only be built to improve a resource",
@@ -1142,6 +1141,59 @@
 		]
 	},
         // Terraforming Building
+	{
+		"name": "Aerobiology Laboratory",
+		"production": 1,
+		"food": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 3,
+		"techRequired": "Terraforming",
+                "uniques": [
+		"Consumes [1] [Oxygen] <when number of [Oxygen] is greater than [Oxygen Best Status]>",
+		"Provides [1] [Oxygen] <when number of [Oxygen] is less than [Oxygen Best Status]>",
+		"Consumes [1] [Atmosphere] <when number of [Atmosphere] is greater than [Atmosphere Best Status]>",
+		"Provides [1] [Atmosphere] <when number of [Atmosphere] is less than [Atmosphere Best Status]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aerobiology Laboratory",
+				"imageSize": 64
+			}
+		]
+	},
+	{
+		"name": "Tidal Wave Laboratory",
+		"production": 1,
+		"food": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 3,
+		"techRequired": "Terraforming",
+                "uniques": ["Consumes [1] [Temperature] <when number of [Temperature] is greater than [Temperature Best Status]>",
+		"Provides [1] [Temperature] <when number of [Temperature] is less than [Temperature Best Status]>",
+		"Consumes [1] [Water] <when number of [Water] is greater than [Water Best Status]>",
+		"Provides [1] [Water] <when number of [Water] is less than [Water Best Status]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Tidal Wave Laboratory",
+				"imageSize": 64
+			}
+		]
+	},
+	{
+		"name": "Atmospheric LNG Factory",
+		"production": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+                "turnsToBuild": 7,
+		"techRequired": "Terraforming",
+                "uniques": ["Consumes [50] [Atmosphere]",
+			"Provides [10] [Temperature]",
+                "Provides [10] [Water]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Atmospheric LNG Factory",
+				"imageSize": 64
+			}
+		]
+	},
         {
                 "name": "Nuclear Atmosphere Generator",
 		"science": 1,
@@ -1164,7 +1216,7 @@
 		"terrainsCanBeBuiltOn": ["Water"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
-                "uniques": ["Provides [10] [Biomass]",
+                "uniques": ["Provides [300] [Biomass]",
                 "Consumes [5] [Atmosphere]",
                 "Provides [5] [Oxygen]"]
         },
@@ -1174,9 +1226,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
-                "uniques": ["Provides [33] [Water] <when below [1001] [Water]>",
-                "Consumes [20] [Atmosphere] <when below [1001] [Water]>",
-                "Provides [10] [Temperature] <when below [1001] [Water]>"]
+                "uniques": ["Provides [33] [Water] <when number of [Water] is less than [Water Best Status]>",
+                "Consumes [20] [Atmosphere] <when number of [Water] is less than [Water Best Status]>",
+                "Provides [10] [Temperature] <when number of [Water] is less than [Water Best Status]>",
+		"Consumes [33] [Water] <when number of [Water] is greater than [Water Best Status]>",
+                "Provides [20] [Atmosphere] <when number of [Water] is greater than [Water Best Status]>",
+                "Consumes [10] [Temperature] <when number of [Water] is greater than [Water Best Status]>"]
 	},
 	{
 		"name": "Artificial Photosynthesis Facility",
@@ -1184,9 +1239,9 @@
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
-                "uniques": ["Provides [50] [Oxygen] <when below [1001] [Oxygen]>",
-                "Consumes [40] [Atmosphere] <when below [1001] [Oxygen]>",
-                "Consumes [10] [Temperature] <when below [1001] [Oxygen]>"]
+                "uniques": ["Provides [50] [Oxygen]",
+                "Consumes [40] [Atmosphere]",
+                "Consumes [10] [Temperature]"]
 	},
 	{
 		"name": "Comet Radar Network",
@@ -1194,10 +1249,10 @@
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 20,
 		"techRequired": "Terraforming",
-                "uniques": ["Provides [100] [Water] <when below [1001] [Water]>",
-                "Provides [33] [Atmosphere] <when below [1001] [Water]>",
-                "Provides [33] [Temperature] <when below [1001] [Water]>",
-		"Consumes [33] [Biomass] <when below [1001] [Water]>"]
+                "uniques": ["Provides [100] [Water]",
+                "Provides [33] [Atmosphere]",
+                "Provides [33] [Temperature]",
+		"Consumes [33] [Biomass]"]
 	},
 	{
 		"name": "Ultra deep Mining",
