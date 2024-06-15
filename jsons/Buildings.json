@@ -1,5 +1,23 @@
 [
 	// Terraform
+	{
+		"name": "Environment",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable",
+	"Provides [1] [Temperature] <for every [2] [Mining Tunnels]>",
+	"Provides [1] [Water] <for every [Mining Tunnels]>",
+	"Provides [1] [Atmosphere] <for every [2] [Mining Tunnels]>",
+	"Consumes [1] [Atmosphere] <for every [2] [Aquatic Farm]>",
+	"Provides [1] [Oxygen] <for every [Aquatic Farm]>",
+	"Provides [1] [Biomass] <for every [Aquatic Farm]>",
+	"Consumes [1] [Atmosphere] <for every [2] [Aquatic Farm]>",
+	"Provides [1] [Oxygen] <for every [Aquatic Farm]>",
+	"Provides [1] [Biomass] <for every [Aquatic Farm]>",
+	"Consumes [1] [Water] <for every [2] [Greenhouse]>",
+	"Consumes [1] [Atmosphere] <for every [2] [Greenhouse]>",
+	"Provides [1] [Oxygen] <for every [Greenhouse]>",
+	"Provides [1] [Biomass] <for every [2] [Greenhouse]>"]
+	},
         {
                 "name": "Global Terraforming Project",
 		"cost": 750,
