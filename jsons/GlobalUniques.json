@@ -18,18 +18,5 @@
 		"[+10]% growth [in all cities] <when number of [Water] is equal to [Water Best Status]>",
 		"[+10]% growth [in all cities] <when number of [Temperature] is equal to [Temperature Best Status]>",
 		"[+10]% growth [in all cities] <when number of [Atmosphere] is equal to [Atmosphere Best Status]>",
-		"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Water] is less than [1000]>",
-	"Provides [1] [Temperature] <for every [2] [Mining Tunnels]>",
-	"Provides [1] [Water] <for every [Mining Tunnels]>",
-	"Provides [1] [Atmosphere] <for every [2] [Mining Tunnels]>",
-	"Consumes [1] [Atmosphere] <for every [2] [Aquatic Farm]>",
-	"Provides [1] [Oxygen] <for every [Aquatic Farm]>",
-	"Provides [1] [Biomass] <for every [Aquatic Farm]>",
-	"Consumes [1] [Atmosphere] <for every [2] [Aquatic Farm]>",
-	"Provides [1] [Oxygen] <for every [Aquatic Farm]>",
-	"Provides [1] [Biomass] <for every [Aquatic Farm]>",
-	"Consumes [1] [Water] <for every [2] [Greenhouse]>",
-	"Consumes [1] [Atmosphere] <for every [2] [Greenhouse]>",
-	"Provides [1] [Oxygen] <for every [Greenhouse]>",
-	"Provides [1] [Biomass] <for every [2] [Greenhouse]>"]
+		"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Water] is less than [1000]>"]
 }
