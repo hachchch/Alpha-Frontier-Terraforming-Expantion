@@ -1,6 +1,10 @@
 {
         "name": "Global uniques",
 	"uniques": ["Instantly provides [100] [Biomass]",
+		"Instantly provides [100] [Atmosphere]",
+		"Instantly provides [2340] [Temperature]",
+		"Instantly provides [800] [Water]",
+		"Instantly provides [7500] [Oxygen]",
 		"Gain a free [Environment] [in capital]",
 		"Triggers a [Terraforming Tips] event <upon discovering [Terraforming] technology>",
 		"Provides [2870] [Temperature Best Status]", /*+0.1℃ per Temperature,*/
