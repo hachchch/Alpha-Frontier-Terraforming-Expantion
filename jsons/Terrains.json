@@ -9,8 +9,8 @@
 		"uniques": [
 			"Becomes [Coast] when adjacent to [Harborship Wreck]",
 			"Becomes [Coast] when adjacent to [Great Neuroreef]",
-                        "Turn this tile into a [Desert] tile <when number of [Temperature] is greater than [3230]>",
-                        "Turn this tile into a [Snow] tile <when number of [Temperature] is less than [2730]>"
+                        "Turn this tile into a [Desert] tile <when number of [Temperature] is greater than [3230]> <upon turn end>",
+                        "Turn this tile into a [Snow] tile <when number of [Temperature] is less than [2730]> <upon turn end>"
 		],
 		"civilopediaText": [
 			{
@@ -29,8 +29,8 @@
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-                        "Turn this tile into a [Desert] tile <when number of [Temperature] is greater than [3230]>",
-                        "Turn this tile into a [Snow] tile <when number of [Temperature] is less than [2730]>"
+                        "Turn this tile into a [Desert] tile <when number of [Temperature] is greater than [3230]> <upon turn end>",
+                        "Turn this tile into a [Snow] tile <when number of [Temperature] is less than [2730]> <upon turn end>"
 		],
 		"civilopediaText": [
 			{
