@@ -4,6 +4,8 @@
 		"name": "Environment",
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable",
+	"Consumes [1] [Temperature] <when number of [Atmosphere] is less than [Atmosphere Best Status]>",
+	"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Water] is less than [1000]>",
 	"Provides [1] [Temperature] <for every [2] [Mining Tunnels]>",
 	"Provides [1] [Water] <for every [Mining Tunnels]>",
 	"Provides [1] [Atmosphere] <for every [2] [Mining Tunnels]>",
