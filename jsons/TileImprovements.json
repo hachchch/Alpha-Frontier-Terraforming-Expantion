@@ -1216,7 +1216,7 @@
 		"terrainsCanBeBuiltOn": ["Water"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
-                "uniques": ["Provides [300] [Biomass]",
+                "uniques": ["Provides [20] [Biomass]",
                 "Consumes [5] [Atmosphere]",
                 "Provides [5] [Oxygen]"]
         },
