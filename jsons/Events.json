@@ -15,6 +15,7 @@
                                 "When the water is lower than 1000, the biomass continues to decrease (However, biomass death rate is lower than biomass growth rate).",
                                 "A too much thick atmosphere causes global warming, while a too much thinner atmosphere causes cooling and water loss.",
                                 "When Temperature reaches 3730, You have to say goodbye to waters.",
+                                "When Temperature reaches 2730, Water tiles become Ice.",
                                 "If each environment score is at its best value, all cities will receive a 10% growth bonus, up to 40%."
                                 ]
                         }
