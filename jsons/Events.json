@@ -1,0 +1,18 @@
+[
+        {
+                "name": "Terraforming Tips",
+                "text": "About Terraforming",
+                "choices":[
+                        {
+                                "text": "Okay",
+                                "triggeredUniques": [
+                                "The required Temperature value for terraform is 2780-3230, the best value is 2870.",
+                                "The required Water value for terraform is 3600-4000, the best value is 3800.",
+                                "The required Oxygen value for terraform is 1800-3200, the best value is 2100.",
+                                "The required Atmosphere value for terraform is 780-1213, the best value is 1013.",
+                                "The required Biomass value for terraform is 550000"
+                                ]
+                        }
+                ]
+        }
+]
