@@ -8,7 +8,6 @@
 		"Provides [1013] [Atmosphere Best Status]", /*+1 hPa per Atmosphere,*/
 		"Provides [2100] [Oxygen Best Status]", /*+100ppm per Oxygen,*/
 		"Provides [1] [Temperature] <when number of [Atmosphere] is greater than [Atmosphere Best Status]>",
-		"Consumes [1] [Temperature] <when number of [Atmosphere] is less than [Atmosphere Best Status]>",
 		"Provides [1] [Biomass] <for every [100] [Biomass]>",
 		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Oxygen] is between [1800] and [3200]>",
 		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Water] is between [3600] and [4000]>",
@@ -17,6 +16,5 @@
 		"[+10]% growth [in all cities] <when number of [Oxygen] is equal to [Oxygen Best Status]>",
 		"[+10]% growth [in all cities] <when number of [Water] is equal to [Water Best Status]>",
 		"[+10]% growth [in all cities] <when number of [Temperature] is equal to [Temperature Best Status]>",
-		"[+10]% growth [in all cities] <when number of [Atmosphere] is equal to [Atmosphere Best Status]>",
-		"Consumes [1] [Biomass] <for every [150] [Biomass]> <when number of [Water] is less than [1000]>"]
+		"[+10]% growth [in all cities] <when number of [Atmosphere] is equal to [Atmosphere Best Status]>"]
 }
